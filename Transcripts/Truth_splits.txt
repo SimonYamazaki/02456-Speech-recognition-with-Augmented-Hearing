@@ -1,0 +1,37 @@
+physics is one of the most fundamental of the sciences. Scientists of all disciplines use the ideas of physics, including chemists who study the structure of molecules, paleontologists who try to reconstruct how dinosaurs walked, and climatologists who study how human activities affect the atmosphere and oceans //
+
+Physics is also the foundation of all engineering and technology. No engineer could design a flat screen TV, an interplanetary spacecraft, or even a better mousetrap without first understanding the basic laws of physics // 
+
+The study of physics is also an adventure. You will find it challenging, sometimes frustrating, occasionally painful, and often richly rewarding //
+
+If you have ever wondered why the sky is blue, how radio waves can travel through empty space, or how a satellite stays in orbit, you can find the answers by using fundamental physics //
+
+You will come to see physics as a towering achievement of the human intellect in its quest to understand our world and ourselves //
+
+In this opening chapter, we will go over some important preliminaries that we will need throughout our study. We will discuss the nature of physical theory and the use of idealized models to represent physical systems //
+
+We will introduce the systems of units used to describe physical quantities and discuss ways to describe the accuracy of a number //
+
+We will look at examples of problems for which we can not find a precise answer, but for which rough estimates can be useful and interesting //
+
+Finally, we will study several aspects of vectors and vector algebra. Vectors will be needed throughout our study of physics to describe and analyze physical quantities, such as velocity and force, that have direction as well as magnitude //
+
+Physics is an experimental science. Physicists observe the phenomena of nature and try to find patterns that relate these phenomena. These patterns are called physical theories or, when they are very well established and widely used, physical laws or principles //
+
+To develop a physical theory, a physicist has to learn to ask appropriate questions, design experiments to try to answer the questions, and draw appropriate conclusions from the results //
+
+Legend has it that Galileo Galilei dropped light and heavy objects from the top of the Leaning Tower of Pisa to find out whether their rates of fall were the same or different. From examining the results of his experiments he made the inductive leap to the principle, or theory, that the acceleration of a falling body is independent of its weight //
+
+The development of physical theories such as Galileos often takes an indirect path, with blind alleys, wrong guesses, and the discarding of unsuccessful theories in favor of more promising ones //
+
+Physics is not simply a collection of facts and principles; it is also the process by which we arrive at general principles that describe how the physical universe behaves //
+
+No theory is ever regarded as the final or ultimate truth. The possibility always exists that new observations will require that a theory be revised or discarded //
+
+It is in the nature of physical theory that we can disprove a theory by finding behavior that is inconsistent with it, but we can never prove that a theory is always correct. Getting back to Galileo, suppose we drop a feather and a cannonball //
+
+They certainly do not fall at the same rate. This does not mean that Galileo was wrong it means that his theory was incomplete. If we drop the feather and the cannonball in a vacuum to eliminate the effects of the air, then they do fall at the same rate //
+
+Galileos theory has a range of validity. It applies only to objects for which the force exerted by the air is much less than the weight. Objects like feathers or parachutes are clearly outside this range //
+
+Often a new development in physics extends a principles range of validity. Galileos analysis of falling bodies was greatly extended half a century later by Newtons laws of motion and law of gravitation
