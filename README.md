@@ -14,7 +14,7 @@ The transcripts folder includes transcriptions produced by usage of the wav2vec 
 
 file_name_split: refers to transcription files where the splitting token "//" was inserted to show where individual 10-30 second audio files transcriptions. 
 
-file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files.
+file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files (and the total amount of words spoken in therefore also halved).
 
 
 
