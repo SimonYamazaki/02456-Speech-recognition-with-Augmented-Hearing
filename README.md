@@ -13,6 +13,7 @@ This repository includes all scripts used for preprocessing as well as audio tra
 The transcripts folder includes transcriptions produced by usage of the wav2vec 2.0 model for the ASR task and transcriptions produced by the benchmark ASR from google. 
 
 file_name_split: refers to transcription files where the splitting token "//" was inserted to show where individual 10-30 second audio files transcriptions. 
+
 file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files.
 
 
