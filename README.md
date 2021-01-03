@@ -3,7 +3,10 @@ For project in Deep Learning course (02456) from the Technical University of Den
 
 By Victor Holm, Louis Lech Nissen and Simon Yamazaki Jensen.
 
-This repository includes all scripts used for preprocessing as well as audio transcription files to recreate main results. 
+This repository includes:
+-all scripts used for preprocessing
+-all speech data used for training and inference
+-speech transcription files to recreate main results
 
 ## Preprocessing 
 - Addition of noise audio and speech audio was done using added_noise.m 
@@ -19,10 +22,10 @@ file_name_split: refers to transcription files where the splitting token "//" wa
 file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files (and the total amount of words spoken is therefore also halved).
 
 ## Training 
-Training of a fine-tuned acoustic model was done using the training script provided by fairseq and can be found [here](https://github.com/pytorch/fairseq/blob/master/fairseq_cli/hydra_train.py).
+Training of a fine-tuned acoustic model was done using the training script provided by fairseq and can be found [here](https://github.com/pytorch/fairseq/blob/master/fairseq_cli/hydra_train.py) and training data can be found in "Japanese_train" folder in the data folder of this Github repository. 
 
 ## Inference 
-Inference was done using the docker implementation from [here](https://github.com/loretoparisi/wave2vec-recognize-docker) or using the script infer.py from [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_recognition/infer.py). 
+Inference was done using the docker implementation from [here](https://github.com/loretoparisi/wave2vec-recognize-docker) or using the script infer.py from [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_recognition/infer.py). All speech data used for inference can be found in the data folder. 
 
 ## Recreation of main results
-Main results is recreated by running the 02456_Results.ipynb in a Jupyter notebook. 
+Main results is recreated by running the 02456_Results.ipynb in a Jupyter notebook accompanied by the transcripts provided.
