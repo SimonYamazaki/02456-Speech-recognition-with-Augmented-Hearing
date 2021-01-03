@@ -3,12 +3,11 @@ For project in Deep Learning course (02456) from the Technical University of Den
 
 By Victor Holm, Louis Lech Nissen and Simon Yamazaki Jensen.
 
+
 This repository includes:
 
 - all scripts used for preprocessing
-
 - all speech data used for training and inference
-
 - speech transcription files to recreate main results
 
 
