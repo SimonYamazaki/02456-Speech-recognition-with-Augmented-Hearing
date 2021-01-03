@@ -1,4 +1,6 @@
-# 02456-Speech-recognition-with-Augmented-Hearing
+# Speech-recognition-with-Augmented-Hearing
+For project in Deep Learning course (02456) from the Technical University of Denmark.
+By Victor Holm, Louis Lech Nissen and Simon Yamazaki Jensen.
 
 This repository includes all scripts used for preprocessing as well as audio transcription files to recreate main results. 
 
@@ -9,20 +11,17 @@ This repository includes all scripts used for preprocessing as well as audio tra
 - Resampling audio files to represent a 16khz sampling rate was done using the resample.py 
 
 ## Transcripts
-
 The transcripts folder includes transcriptions produced by usage of the wav2vec 2.0 model for the ASR task and transcriptions produced by the benchmark ASR from google. 
 
 file_name_split: refers to transcription files where the splitting token "//" was inserted to show where individual 10-30 second audio files transcriptions. 
 
-file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files (and the total amount of words spoken in therefore also halved).
+file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files (and the total amount of words spoken is therefore also halved).
 
-
+## Training 
+Training of a fine-tuned acoustic model was done using the script [here](https://github.com/pytorch/fairseq/blob/master/fairseq_cli/hydra_train.py).
 
 ## Inference 
-Inference was done using the docker implementation from [here](https://github.com/loretoparisi/wave2vec-recognize-docker). 
+Inference was done using the docker implementation from [here](https://github.com/loretoparisi/wave2vec-recognize-docker) or using the script infer.py from [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_recognition/infer.py). 
 
-## Result recreation
+## Recreation of main results
 Main results is recreated by running the 02456_Results.ipynb in a Jupyter notebook. 
-
-
-
