@@ -18,7 +18,7 @@ file_name_split: refers to transcription files where the splitting token "//" wa
 file_name_half_split: refers to transcription files similar to file_name_split however with half the audio files (and the total amount of words spoken is therefore also halved).
 
 ## Training 
-Training of a fine-tuned acoustic model was done using the script [here](https://github.com/pytorch/fairseq/blob/master/fairseq_cli/hydra_train.py).
+Training of a fine-tuned acoustic model was done using the training script provided by fairseq and can be found [here](https://github.com/pytorch/fairseq/blob/master/fairseq_cli/hydra_train.py).
 
 ## Inference 
 Inference was done using the docker implementation from [here](https://github.com/loretoparisi/wave2vec-recognize-docker) or using the script infer.py from [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_recognition/infer.py). 
